@@ -18,4 +18,12 @@ class Controller extends BaseController
     {
         return view('index');
     }
+
+    /**
+     * Função que retorna a view de CONTATO
+     */
+    public function contato()
+    {
+        return view('contato');
+    }
 }

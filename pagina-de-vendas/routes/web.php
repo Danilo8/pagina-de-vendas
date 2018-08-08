@@ -13,5 +13,16 @@
 
 /**
  * Rotas Globais
+ * --------------------------------------------------------------------------
  */
 Route::get('/', 'Controller@index');
+Route::get('/sobre', 'Controller@sobre');
+Route::get('/termos', 'Controller@termos');
+Route::get('/privacidade', 'Controller@privacidade');
+Route::get('/contato', 'Controller@contato');
+
+/**
+ * Rotas de Admin
+ * --------------------------------------------------------------------------
+ */
+Route::get('/admin/login', 'AdminController@login');
